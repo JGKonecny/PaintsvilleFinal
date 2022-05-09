@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Display a map</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "lato", sans-serif;
+        font-weight: 400;
+        color: rgb(32, 32, 32);
+        background-color: rgb(236, 232, 228);
+      }
+
+      h1 {
+        background-color: rgb(90, 97, 136);
+        padding: 25px;
+        text-align: center;
+        font-size: 5rem;
+        color: white;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin: 0;
+        padding: 0;
+        color: rgb(75, 75, 75);
+      }
+
+      p {
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin: 0 0 15px 0;
+      }
+
+      section {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      footer {
+        background-color: rgb(100, 48, 48);
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <h1>Paintsville Lake</h1>
+      <h2>A rendering of Paintsville Lake Park with contour lines at 20 feet intervals.</h2>
+      <iframe
+        title="Mapbox area of interest" width="100%" height="700" src="map.html" frameborder="0" allow="fullscreen" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"
+      >
+      </iframe>
+      <p>Click here to view the full <a href="map.html">Enlarged map.</a></p>
+      <h1></h1>
+      <img src="Layout.jpg" alt="Morina Highlight" width="100%" />
+      <p>This map highlights the morina within the lake. <a href="Layout.pdf">Link to geospatial PDF.</a></p>
+      <h2>
+        Paintsville Lake was made in 1983 as a reservoir by the United States Army Corps of Engineers. On it resides a morina that provides a spot to dock, fish, and eat.</h2>
+      <img src="Capture.JPG" alt="Ground View" width="100%"/>
+      <p> A ground level view of the Lake and some of its accomidations. Here's a <a href="https://www.youtube.com/watch?v=pCL4CWblMcU">rendered fly-through</a> of the lake and its surroundings</p>
+      <h2>
+        This project's goal is to provide insight on the surrounding geography of this lake. Although seemingly irrelevant, it is a popular hub for the locals and is Paintsville Lake State Park's most major attraction.
+      </h2>
+    </section>
+    <footer>
+      <hr />
+      <p>
+        This site and its images were created by Joshua Konecny for GEO 409, Department of
+        Geography, University of Kentucky. Spring 2022.
+      </p>
+      <p>
+        Visualizations created from lidar data provided by
+        <a href="https://kyfromabove.ky.gov/">KyFromAbove</a> in ArcGIS Pro, MapBox, and Blender.
+        Additional sources of information from <a href="https://en.wikipedia.org/wiki/Paintsville_Lake">wikipedia</a>, April 18, 2022.
+      </p>
+    </footer>
+  </body>
